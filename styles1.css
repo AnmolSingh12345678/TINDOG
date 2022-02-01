@@ -1,0 +1,171 @@
+body
+{
+    font-family: 'Montserrat Black';
+}
+.btn{
+  padding-bottom: 1;
+  margin-top:0;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+#cta{
+  background-color: #ff4c68;
+  padding-top:30px;
+
+  font-weight: bold;
+  text-align: center;
+  color:#fff;
+}
+.call-to{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  width:50%;
+  margin:auto;
+  font-weight:400;
+  font-family: 'Montserrat-Bold';
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+.feature-icon
+{ margin-bottom: 1rem;
+
+    color: #ef8172;
+}
+.feature-box
+{ padding: 4.5%;
+
+    text-align: center;
+}
+.feature-icon:hover
+{
+    color: #ff4c68;
+}
+#features
+{ position: relative;  z-index: 1;                  /*even if we dont use z-index since feature is */
+
+    padding: 4% 1% 0;  background-color: #fff;     /*below in html code title-img will be get hidden behind feature seciton*/
+}
+
+
+h1
+{
+    font-size: 3.5rem;
+    font-style: 'Montserrat-Bold',sans-serif;  line-height: 1.5;
+}
+h2
+{
+    font-family: 'Montserrat-Bold';  font-size: 3rem;  line-height: 1.5;
+}
+h3
+{
+    font-family: 'Montserrat-Bold';  line-height: 1.5rem;
+}
+.nav-link
+{
+    font-family: 'Montserrat-Light';  font-size: 1.2rem;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.navbar
+{
+  padding-left:0;
+  padding-top:0;
+    padding-bottom: 4.5rem;
+}
+.navbar-brand
+{
+    font-family: 'Ubuntu';  font-size: 2.5rem;     font-weight: bold;
+
+}
+
+#title
+{
+    color: #fff;  background-color: #ff4c68;
+}
+.title-img
+{ position: absolute;
+right:30;
+    width: 60%;  transform: rotate(25deg);
+}
+#testimonials
+{
+    text-align: center;  color: #fff; background-color: #ef8172;
+}
+.testimonial-img
+{ width: 15%;  margin: 20px;
+
+    border-radius: 100%;
+}
+.press-logo
+{
+    width: 15%;  margin: 20px 20px 50px;
+}
+#press
+{ padding-bottom: 3%;;
+
+    text-align: center;  background-color: #ef8172;
+}
+#pricing
+{
+    padding: 100px;
+}
+
+.price-text
+{
+    font-size: 3rem;  line-height: 1.5;
+}
+
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+p
+{
+    color: #8f8f8f;
+}
+#footer{
+
+  text-align: center;
+}
+.section-heading{
+  text-align:center;
+}
+.section-p{
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+.white-section
+{
+    background-color: #fff;
+
+}
+#footer .container-fluid{
+  padding-top:100px;
+  padding-bottom:50px;
+}
+
+@media(max-width:1000px){
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position:static;
+    transform:rotate(0);
+  }
+}
